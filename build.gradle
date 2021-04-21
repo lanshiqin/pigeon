@@ -26,4 +26,8 @@ subprojects {
         jcenter()
     }
 
+    dependencies {
+        implementation("io.netty:netty-all:$nettyVersion")
+    }
+
 }
